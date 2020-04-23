@@ -5,5 +5,7 @@
     <string name="plus_button">Plus Button</string>
     <string name="team_2">Team 2</string>
     <string name="_0">0</string>
+    <string name="plus_button_description">plus button</string>
+    <string name="minus_button_description">minus button</string>
 
 </resources>
