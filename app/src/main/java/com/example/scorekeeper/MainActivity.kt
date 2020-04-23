@@ -18,12 +18,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //reference to TextView elements
         mScoreText1 = findViewById<TextView>(R.id.score_1) as TextView
         mScoreText2 = findViewById<TextView>(R.id.score_2) as TextView
 
     }
 
     fun decreaseScore(view: View) {
+
+        //equivalent to switch statement in java
         when (view.id){
                     R.id.decreaseTeam1 -> {
                         mScore1--
